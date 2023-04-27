@@ -1,6 +1,6 @@
 # ann-mmif-conversion
 
-### converting .ann file to mmif (.mmif or .json)
+## converting .ann file to mmif (.mmif or .json)
 
 ```
 python ann_to_mmif.py example-ann.ann out-mmif.mmif
@@ -17,7 +17,8 @@ python ann_to_mmif.py -l example-ann.ann out-mmif-with-text-location.mmif "D:\pa
 ```
 per Mmif file's format restriction, the location here must be an absolute path
 
-### converting mmif file to .ann
+
+## converting mmif file to .ann
 
 the name of the NER app (that has done the annotations to be exported to .ann) must be specified. In the following example, the app's name in the view's metadata is "https://apps.clams.ai/spacy_nlp". If there are many views with named-entity annotations from this app, only the last view's annotations are exported to .ann
 ```

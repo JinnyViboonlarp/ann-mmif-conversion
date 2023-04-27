@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "mmif": "https://mmif.clams.ai/0.4.0"
+  },
+  "documents": [
+    {
+      "@type": "http://mmif.clams.ai/0.4.0/vocabulary/TextDocument",
+      "properties": {
+        "id": "m1",
+        "location": "D:\\clams\\ann-mmif-conversion\\example-text.txt"
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "v_0",
+      "metadata": {
+        "timestamp": "2023-04-27T11:17:45.757098",
+        "app": "ann-to-mmif-conversion",
+        "contains": {
+          "http://vocab.lappsgrid.org/NamedEntity": {
+            "document": "m1"
+          }
+        }
+      },
+      "annotations": [
+        {
+          "@type": "http://vocab.lappsgrid.org/NamedEntity",
+          "properties": {
+            "start": 15,
+            "end": 25,
+            "text": "Jim Lehrer",
+            "category": "PERSON",
+            "id": "ne1"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/NamedEntity",
+          "properties": {
+            "start": 35,
+            "end": 43,
+            "text": "NewsHour",
+            "category": "ORG",
+            "id": "ne2"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/NamedEntity",
+          "properties": {
+            "start": 47,
+            "end": 50,
+            "text": "PBS",
+            "category": "ORG",
+            "id": "ne3"
+          }
+        },
+        {
+          "@type": "http://vocab.lappsgrid.org/NamedEntity",
+          "properties": {
+            "start": 55,
+            "end": 76,
+            "text": "the nineteen eighties",
+            "category": "DATE",
+            "id": "ne4"
+          }
+        }
+      ]
+    }
+  ]
+}

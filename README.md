@@ -1,6 +1,6 @@
 # ann-mmif-conversion
 
-## converting .ann file to mmif (.mmif or .json)
+## converting .ann file to mmif
 
 ```
 python ann_to_mmif.py example-ann.ann out-mmif.mmif
